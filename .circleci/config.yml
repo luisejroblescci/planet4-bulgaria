@@ -8,7 +8,7 @@ defaults: &defaults
 job_environments:
   common_environment: &common_environment
     CONTAINER_PREFIX: planet4-bulgaria
-    APP_HOSTPATH: 
+    APP_HOSTPATH: bulgaria
     WP_DB_NAME_PREFIX: planet4-bulgaria_wordpress
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
