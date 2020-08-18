@@ -3,8 +3,7 @@
 	"description": "Greenpeace P4 Bulgaria",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme" : "0.*",
-		"greenpeace/planet4-plugin-migrated-urls": "0.0.1"
+		"greenpeace/planet4-child-theme-bulgaria" : "dev-master"
 	},
 	"scripts": {
 		"core:language": "wp language core install bg_BG; wp language core activate bg_BG",
