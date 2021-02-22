@@ -1,14 +1,14 @@
 {
-	"name": "greenpeace/planet4-bulgaria",
-	"description": "Greenpeace P4 Bulgaria",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-bulgaria" : "dev-master"
-	},
-	"scripts": {
-		"core:language": "wp language core install bg_BG; wp language core activate bg_BG",
-		"site:custom": [
-			"@core:language"
-		]
-	}
+    "name": "greenpeace/planet4-bulgaria",
+    "description": "Greenpeace P4 Bulgaria",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-bulgaria" : "dev-master"
+    },
+    "scripts": {
+        "core:language": "wp language core install bg_BG; wp language core activate bg_BG",
+        "site:custom": [
+            "@core:language"
+        ]
+    }
 }
